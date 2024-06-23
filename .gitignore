@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/veco-website.vcxproj
+/veco-website.vcxproj.filters
+/veco-website.vcxproj.user
