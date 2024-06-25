@@ -3,13 +3,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('grid.jpg') no-repeat center center fixed;
+    /*background: url('grid.jpg') no-repeat center center fixed;*/
+
     background-size: cover;
     font-family: 'Amarillo', sans-serif;
     color: white;
     background-color: rgb(59,59,59);
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /*overflow-y: hidden;
+    overflow-x: hidden;*/
 }
 
 .container {
@@ -40,6 +41,7 @@ body {
     padding: 70px 10px;    
     margin-left: auto;
     margin-right: auto;
+    width: 110px;
 }
 
 .header .link:hover {
@@ -70,19 +72,19 @@ body {
     order: 3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .logo {
       width: 100%;
     }     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .link {
       order: 10;
     }     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .header .link {
         width: 100%;
         padding: 10px 10px;
@@ -100,15 +102,10 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    justify-content: center;    
-}
-
-.content img {
-    width: 80%;
-    max-width: 3840px;    
-    min-width: 1280px;  
-    display: block;
-    
+    justify-content: center;
+    width: 20%;
+    margin-top: 1000px;
+    margin-bottom: 200px;
 }
 
 .footer {
@@ -122,8 +119,7 @@ body {
 }
 
 .footer h1, .footer h2 {
-    margin: 5px 0;
-    padding: 10px 20px;
+    margin: 5px 0;    
 }
 
 .footer h1 {
