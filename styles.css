@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*background: url('grid.jpg') no-repeat center center fixed;*/
+    background: url('grid.jpg') no-repeat center center fixed;
 
     background-size: cover;
     font-family: 'Amarillo', sans-serif;
@@ -116,6 +116,16 @@ body {
     padding-top: 150px;
     padding-bottom: 50px;
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.header .link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    /*padding: 70px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;*/
 }
 
 .footer h1, .footer h2 {
